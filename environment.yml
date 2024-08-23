@@ -1,0 +1,32 @@
+name: d4team
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - ipyleaflet
+  - jupyter-book<2
+  - jupyter-resource-usage
+  - jupyterhub-singleuser
+  - jupyterlab
+  - jupytext
+  - pip
+  - python=3.11
+  - sphinxcontrib-bibtex
+  # For building the Splashpage
+  - cookiecutter
+  # Dependencies of jinja-markdown:
+  - jinja2>=2.11
+  - pygments>=2.6.1
+  - pymdown-extensions>=7.1
+  - pytorch
+  - numpy<2
+  - torchvision
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - scipy
+  - cartopy
+  - shapely
+  - geopandas
+  - pip:
+    - jinja-markdown==1.210911
